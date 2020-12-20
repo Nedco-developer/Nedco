@@ -1,0 +1,9 @@
+[17-Dec-2020 09:41:45 Asia/Amman] PHP Fatal error:  Cannot declare class App\Console\Commands\todayOrders because the name is already in use in /home2/mqjaujmy/NEDCO/app/Console/Commands/todayOrders.php on line 17
+[17-Dec-2020 09:41:55 Asia/Amman] PHP Fatal error:  Cannot declare class App\Console\Commands\todayOrders because the name is already in use in /home2/mqjaujmy/NEDCO/app/Console/Commands/todayOrders.php on line 17
+[17-Dec-2020 09:43:43 Asia/Amman] PHP Fatal error:  Cannot declare class App\Console\Commands\todayOrders because the name is already in use in /home2/mqjaujmy/NEDCO/app/Console/Commands/TodayOrders.php on line 17
+[17-Dec-2020 09:43:51 Asia/Amman] PHP Fatal error:  Cannot declare class App\Console\Commands\TodayOrders because the name is already in use in /home2/mqjaujmy/NEDCO/app/Console/Commands/todayOrders.php on line 17
+[17-Dec-2020 09:44:43 Asia/Amman] PHP Fatal error:  Cannot declare class App\Console\Commands\TodayOrders because the name is already in use in /home2/mqjaujmy/NEDCO/app/Console/Commands/todayOrders.php on line 17
+[17-Dec-2020 09:44:54 Asia/Amman] PHP Fatal error:  Cannot declare class App\Console\Commands\TodayOrders because the name is already in use in /home2/mqjaujmy/NEDCO/app/Console/Commands/todayOrders.php on line 17
+[17-Dec-2020 09:45:14 Asia/Amman] PHP Fatal error:  Cannot declare class App\Console\Commands\TodayOrders because the name is already in use in /home2/mqjaujmy/NEDCO/app/Console/Commands/todayOrders.php on line 17
+[17-Dec-2020 09:46:17 Asia/Amman] PHP Fatal error:  Cannot declare class App\Console\Commands\TodayOrders because the name is already in use in /home2/mqjaujmy/NEDCO/app/Console/Commands/todayOrders.php on line 17
+[17-Dec-2020 09:46:35 Asia/Amman] PHP Fatal error:  Cannot declare class App\Console\Commands\TodayOrders because the name is already in use in /home2/mqjaujmy/NEDCO/app/Console/Commands/todayOrders.php on line 17

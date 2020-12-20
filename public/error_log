@@ -1,0 +1,1 @@
+[27-Oct-2020 09:01:03 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\ReportController::Reports() in /home2/mqjaujmy/NEDCO/app/Http/Controllers/ReportController.php on line 147

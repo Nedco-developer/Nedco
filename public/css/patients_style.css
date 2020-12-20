@@ -1,0 +1,323 @@
+.notification-image{
+    width: 20px;
+}
+
+.links-patient{
+    color:white!important;
+    background-color: #1d70b6;
+}
+
+.line-header-section{
+    padding: 15px 10px;
+    color: white;
+    direction: rtl;
+    width: 100%;
+    background-color: #15558d;
+    margin: 0px!important;
+    font-size: 12px;
+}
+
+.line-header-section > div > div > a{
+    color:white;
+    font-size: 12px;
+}
+
+.header-patient{
+    font-size: 30px;
+}
+
+.background-container{
+    background-color: #f8f9fa;
+    padding: 30px 0px;
+}
+
+.white-container{
+    background-color: white;
+    padding: 20px;
+}
+
+.white-container-book{
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+}
+
+.notification-zoom{
+    font-size: 15px;
+}
+
+.notification-name{
+    font-size: 15px;
+}
+
+.patient-notification{
+    width: 50px;
+}
+
+.patient-doctor-icons{
+    border: 1px solid lightgray!important;
+    font-size: 13px!important;
+    margin: 2px;
+    border-radius: 0px!important;
+}
+
+.patient-doctor-profile-div{
+    width: 100%;
+    text-align: right;
+}
+
+.patient-doctor-profile-button{
+    width: 100%;
+    padding: 10px 25px;
+    font-size: 17px;
+    color: white;
+    background-color: #15558d;
+    text-align: center;
+}
+
+.patient-doctor-bottom-header{
+    font-size: 15px;
+    color: #15558d;
+    font-weight: 800;
+    text-align: center;
+    width: 100%;
+}
+
+.patient-doctor-bottom-line{
+    border-bottom: 4px solid #15558d;
+    width: 100%;
+}
+
+.patient-doctor-bottom-text{
+    font-size: 20px;
+    width: 100%;
+    text-align: right;
+    direction: rtl;
+    font-weight: 100;
+}
+
+
+.patient-doctor-image{
+    width: 100%;
+    float: right;
+}
+
+.patient-sidebar-image{
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    padding: 8px;
+    background-color: #f7f7f7;
+    border-radius: 50%;
+}
+
+.patient-sidebar-header{
+    width: 100%;
+}
+
+.sidebar-links{
+    font-size: 15px;
+    color: gray;
+}
+
+.sidebar-links-div{
+    padding: 10px;
+}
+.sidebar-line{
+    border-top:1px solid lightgray
+}
+
+.appointments-div{
+    border-bottom: 1px solid lightgray;
+}
+
+.appointments-headers{
+    border-bottom: 3px solid #15558d;
+    padding-bottom: 15px;
+}
+
+.appointments-headers-others{
+    font-weight: 800;
+}
+
+.appointments-headers-text{
+    font-weight: 800;
+    color: #15558d;
+}
+
+.appointments-headers-others-text{
+    font-weight: 800;
+    color:black
+}
+
+.appointments-headers-text:hover{
+    text-decoration: none;
+    color: #15558d;
+}
+
+.appointments-headers-others-text:hover{
+    text-decoration: none;
+    color:black
+}
+
+.patient_appointment_images{
+    width: 70px;
+}
+
+#patient_appointments_table_wrapper{
+    width: 570px;
+}
+
+#patient_appointments_table{
+    width: 900px;
+    margin-top: 40px;
+}
+
+.upload-div{
+    padding: 10px 15px;
+    font-size: 15px;
+    color: white;
+    background-color: #15558d;
+    border-radius: 12%;
+    cursor: pointer;
+}
+
+#upload_patient_image{
+    display: none;
+}
+
+.profile-patient-save{
+    padding: 10px 20px;
+    background-color: #15558d;
+    width: 50%;
+    color: white;
+    font-weight: 800;
+}
+
+@media(min-width: 767px) {
+    .navbar-style {
+        padding: 0rem !important;
+    }
+}
+
+.appointment-table-container{
+    margin: auto;
+}
+
+a.sidebar-links:hover{
+    text-decoration: none;
+}
+
+#container{
+    width: 100%;
+}
+
+.doctor-appointment{
+    display: block;
+}
+
+.filter-widget{
+    text-align: right;
+}
+
+.doctors-search-button{
+    width:25%;
+    display: block!important;
+}
+
+.doctors-search-div{
+    width: 100%;
+}
+
+.drugs-columns{
+    text-align: right;
+    border: 0.5px solid #1d70b6;
+    padding: 15px;
+}
+
+.nav-drugs{
+    margin: auto;
+}
+
+.modal-dialog{
+    max-width: 45rem !important;
+}
+
+.modal-header .close{
+    margin: -1rem -1rem -1rem!important;
+}
+
+.popup-links{
+    padding: 0.7rem 1.82rem;
+    cursor: pointer;
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+.popup-links.active{
+    background-color: #369;
+    color: white
+}
+
+.popup-links.active:hover{
+    border: 0px;
+}
+
+.popup-links:hover{
+    border: 1px solid lightgray;
+}
+
+.popup-column{
+    padding: 0px!important;
+    text-align: center;
+}
+
+.popup-header{
+    border-bottom: 1px solid lightgray;
+}
+
+
+
+.popup_section_none{
+    display: none;
+}
+
+
+.appointment-table-container{
+    width: 100%;
+    margin: 0px 10px;
+}
+
+
+
+
+
+@media(max-width: 767px){
+    .links-patient{
+        color:rgba(0,0,0,.5)!important;
+        background-color: white!important;
+    }
+    .change-photo-btn{
+        margin-top: 30px;
+    }
+}
+
+a{
+    color: #ffffff;
+      text-decoration: none;
+      background-color: transparent;
+  }
+
+
+  a:hover{
+    color: #000000;
+  }
+
+  .card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    color: white;
+    background-color: rgb(238 41 58);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}

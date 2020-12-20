@@ -1,0 +1,394 @@
+body, a, p, span, div, strong, h1, h2, h3, h4, h5, b, li {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+.navbar-style{
+    width: 100%
+}
+
+.ul-navbar{
+    direction: rtl;
+}
+
+.arrow-logout{
+    margin-right: 14px;
+}
+
+.dashboard-images{
+    max-width: 200px;
+    margin: auto;
+}
+
+.dashboard-main-div{
+    padding: 80px 60px;
+    border: 1px solid #4188c6;
+}
+
+.line{
+    margin: auto;
+    border: 1px solid #4188c6;
+    width: 70%;
+}
+
+.dashboard-headers{
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    color: #4188c6;
+    font-family: Cairo;
+}
+
+.dashboard-table > thead > tr > th {
+    text-align: center;
+    color: #4188c6;
+    border-bottom: 2px solid #ddd;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.footer-image{
+    width: 50px;
+}
+
+.footer-text{
+    font-size: 14px;
+}
+
+.footer-paragraph{
+    direction: rtl;
+    text-align: center;
+}
+
+@media (min-width: 991px) {
+
+    .navbar-link{
+        padding: 4px 25px !important;
+        border: 1px solid #4188c6;
+        font-family: Cairo;
+    }
+
+    .links{
+        color: white!important;
+        background-color: #4188c6;
+    }
+
+    .last-link{
+        color: #4188c6!important;
+    }
+}
+
+.direction-text{
+    direction: rtl;
+}
+
+.addicon{
+    padding: 10px;
+    background-color: #4188c6;
+    color: white;
+}
+
+.addicon:hover{
+    color: white;
+}
+
+.add-profile-button{
+    color: black;
+    float: right;
+}
+
+.add-profile-button:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.add-profile-header{
+    color: #4188c6;
+    float: right;
+    font-size: 20px;
+}
+
+.add-profile-column{
+    border-bottom:1px solid #4188c6;
+}
+
+.add-des-container{
+    padding: 40px;
+    border: 1px solid #4188c6;
+}
+
+.add-des{
+    text-align: center;
+    padding: 10px;
+    background-color: #4188c6;
+    color:white
+}
+
+.add-patient-profile-div{
+    padding: 30px;
+    border: 1px solid #4188c6;
+}
+
+.add-patient-profile-header{
+    direction: rtl;
+    color: #4188c6;
+    background: #f0f8ff;
+    padding: 5px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.add-profile-label{
+    font-size: 15px;
+}
+
+.form-control{
+    box-shadow: none;
+    border-radius: 2px;
+    border: 1px solid #e9e9e9;
+    background: #fafafa;
+    height: 40px;
+}
+
+.add-profile-save{
+    padding: 5px 20px;
+    background-color: #4188c6;
+    color: white;
+    float: right;
+}
+
+#iti-0__country-listbox{
+    left:0px;
+}
+
+.iti.iti--allow-dropdown{
+    width: 100%
+}
+
+.tel-input-field{
+    direction: rtl;
+}
+
+#patients_profile_table_filter > label{
+    color: #4188c6;
+}
+
+#patients_profile_table_filter > label > input[type=search]{
+    border: 1px solid #4188c6;
+}
+
+#patients_appointments_table_filter > label{
+    color: #4188c6;
+}
+
+#patients_appointments_table_filter > label > input[type=search]{
+    border: 1px solid #4188c6;
+}
+
+#patients_diaries_table_filter > label{
+    color: #4188c6;
+}
+
+#patients_diaries_table_filter > label > input[type=search]{
+    border: 1px solid #4188c6;
+}
+
+#doctors_appointments_table_filter > label{
+    color: #4188c6;
+}
+
+#doctors_appointments_table_filter > label > input[type=search]{
+    border: 1px solid #4188c6;
+}
+
+#patients_diaries_table_files_filter > label{
+    color: #4188c6;
+}
+
+#patients_diaries_table_files_filter > label > input[type=search]{
+    border: 1px solid #4188c6;
+}
+
+#patients_diaries_table_recipes_filter > label{
+    color: #4188c6;
+}
+
+#patients_diaries_table_recipes_filter > label > input[type=search]{
+    border: 1px solid #4188c6;
+}
+
+.datatable-style > thead > tr > th {
+    color: #4188c6;
+    text-align: center;
+}
+
+.datatable-style{
+    border: 1px solid #4188c6;
+}
+
+#patients_files_table_filter > label{
+    color: #4188c6;
+}
+
+#patients_prescription_table_table_filter > label{
+    color: #4188c6;
+}
+
+#patients_notice_table_filter > label{
+    color: #4188c6;
+}
+
+.paginate_button{
+    color:white!important;
+}
+
+
+
+.eye-style{
+    color:#336699;
+    padding-top: 10px;
+}
+
+.eye-style > i{
+    font-size: 15px
+}
+
+.profile-images{
+    width: 70px;
+    height: 50px;
+}
+
+.custom-padding{
+    padding-top: 2.5%!important;
+}
+
+.linear-colored-header{
+    background: #ececec;
+    padding-right: 35px;
+    color: #1d70b6;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.table-responsive{
+    direction: rtl;
+    text-align: center;
+}
+
+.table-responsive tbody tr:nth-child(even) {
+    background: #eff8ff;
+}
+
+.dates{
+    border: 1px solid #4188c6;
+}
+
+.search_button{
+    color:white;
+    background-color: #4188c6;
+    width: 100%;
+    font-size: 20px;
+}
+
+.diaries_buttons{
+    display: inline-block;
+    background: #ececec;
+    padding: 5px 15px;
+    color: #000;
+    margin: 0px 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.diaries_buttons.active{
+    background: #1d70b6;
+    color: #fff;
+}
+
+.reset-password{
+    direction:rtl
+}
+
+.reset-password-header{
+    color: #4188c6;
+}
+
+.reset-password{
+    padding: 50px;
+    border: 1px solid #4188c6;
+}
+
+.row-direction{
+    direction: rtl;
+}
+
+
+
+
+@media (max-width: 1199px){
+    .navbar-link{
+        padding: 4px 15px!important;
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .navbar-image{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 50%;
+    }
+
+    .dashboard-main-div{
+        margin-top: 70px;
+    }
+
+    .dashboard-main-sections{
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 767px){
+    .dashboard-bottom-div{
+        overflow-x: scroll;
+    }
+
+    .dataTables_wrapper{
+        overflow-x: scroll;
+    }
+
+    .diaries_buttons{
+     margin-top:10px;
+    }
+
+    .container{
+        text-align: right;
+    }
+
+    .navbar-style{
+        padding: .5rem 1rem!important;
+    }
+
+
+}
+
+
+a{
+    color: #ffffff;
+      text-decoration: none;
+      background-color: transparent;
+  }
+  a:hover{
+    color: #000000;
+  }
+  .card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    color: white;
+    background-color: rgb(238 41 58);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}

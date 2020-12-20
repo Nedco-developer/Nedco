@@ -1,0 +1,92 @@
+body, a, p, span, div, strong, h1, h2, h3, h4, h5, b, li {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+.login-div{
+    padding: 40px;
+    border: 1px solid #1f71b8;
+}
+
+.login-header{
+    color: #1f71b8;
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.login-input-fields{
+    width: 100%;
+    height: 45px;
+    border: 1px solid #1f71b8;
+    padding: 0 18px;
+    color: #1f71b8;
+    font-size: 13px;
+    font-family: 'Open Sans';
+    margin-bottom: 20px;
+}
+
+.field-icon {
+    float: right;
+    margin-right: 10px;
+    margin-top: -49px;
+    position: relative;
+}
+
+
+.login-button{
+    background-color: #1f71b8;
+    border: 1px solid #1f71b8;
+    height: 47px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Roboto';
+    color: white;
+    width: 100%;
+    float: right;
+}
+
+.forget-password{
+    color: #999;
+    font-size: 13px;
+}
+
+.forget-password:hover{
+    color: #999;
+    text-decoration: none;
+}
+
+.login-center-tag{
+    margin-top: 23%;
+}
+
+.login-overflow{
+    position: absolute;
+    width: 100%;
+    display: none;
+    top: 0px;
+    background-color: white;
+    height: 100%;
+    z-index: 1;
+}
+
+#loading_image{
+    position: absolute;
+    display: block;
+    left: 40%;
+    top: 30%;
+}
+
+
+#login_error_div{
+    display: none;
+}
+
+a:hover{
+    color: #000000;
+  }
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    color: white;
+    background-color: rgb(238 41 58);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}

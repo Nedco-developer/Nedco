@@ -1,0 +1,43 @@
+.pages-table{
+    width: 100%;
+}
+.pages-table > thead > tr > th{
+    font-size: 0.7rem;
+    font-weight: 100;
+    margin: auto;
+}
+
+.pages-table > tbody > tr > td{
+    font-size: 1rem;
+    font-weight: 500;
+    color:#336699
+}
+
+.icon{
+ width: 5rem;
+}
+
+.div-overflow{
+    overflow-x: scroll;
+}
+
+.btn-primary {
+    color: #fff !important;
+    background-color: #15558d !important;
+    border-color: #15558d !important;
+}
+a{
+    color: #ffffff;
+      text-decoration: none;
+      background-color: transparent;
+  }
+  a:hover{
+    color: #690000;
+  }
+  .card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    color: white;
+    background-color: rgb(238 41 58);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}

@@ -1,0 +1,62 @@
+@extends('layouts.dashboardApp')
+
+@section('title', 'Add Locations')
+
+@section('content')
+<div class="container">
+    <br>
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">{{ __('Add Districts') }}</div>
+                <div class="card-body">
+                        @if (\Session::has('success'))
+                            <div class="alert alert-success">
+                                {!! \Session::get('success') !!}
+                            </div>
+                        @endif
+                    <form method="POST" action="{{ route('SubmitEditDistricts') }}" enctype="multipart/form-data">
+                        @csrf
+                        <input type="hidden" name="id" class="form-control" value="{{ $Districts->id }}" />
+                        <div class="form-group row">
+                            <label for="type" class="col-md-4 col-form-label text-md-right">{{ __('Districts') }}</label>
+                            <div class="col-md-6">
+                                <input type="text" name="Districts" id="Districts" class="form-control" value="{{ $Districts->name }}" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="type" class="col-md-4 col-form-label text-md-right">{{ __('City') }}</label>
+                            <div class="col-md-6">
+                                <select required name="City_id" id="City_id" class="form-control">
+                                    @foreach($city as $city)
+                                    <option value="{{ $city->id }}" @if($city->id ==  $Districts->city_id) selected @endif >{{ $city->name }}</option>
+                                    @endforeach
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="type" class="col-md-4 col-form-label text-md-right">{{ __('Client Default Delivery Price') }}</label>
+                            <div class="col-md-6">
+                                <input type="text" name="Price" id="Price" class="form-control" value="{{ $Districts->price }}" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="type" class="col-md-4 col-form-label text-md-right">{{ __('Driver Default Delivery Price') }}</label>
+                            <div class="col-md-6">
+                                <input type="text" name="driver_price" id="driver_price" value="{{ $Districts->driver_price }}" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="form-group row mb-0">
+                            <div class="col-md-6 offset-md-4">
+                                <button type="submit" class="btn btn-success">
+                                    {{ __('Save') }}
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection
